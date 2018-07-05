@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title=""
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/collect"
+        android:title=""
+        android:icon="@drawable/ic_collection"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/comment"
+        android:title="···"
+        android:icon="@drawable/ic_comment"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/thumb_up"
+        android:title="···"
+        android:icon="@drawable/ic_thumb_up"
+        app:showAsAction="always|withText" />
+
+</menu>

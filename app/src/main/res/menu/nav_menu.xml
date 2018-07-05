@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/daily_psychology"
+            android:title="@string/daily_psychology" />
+        <item
+            android:id="@+id/user_recommendation_daily"
+            android:title="@string/user_recommendation_daily"/>
+        <item
+            android:id="@+id/movie_Daily"
+            android:title="@string/movie_Daily"/>
+        <item
+            android:id="@+id/do_not_be_bored"
+            android:title="@string/do_not_be_bored"/>
+        <item
+            android:id="@+id/design_daily"
+            android:title="@string/design_daily"/>
+        <item
+            android:id="@+id/big_company_daily"
+            android:title="@string/big_company_daily"/>
+        <item
+            android:id="@+id/financial_daily"
+            android:title="@string/financial_daily"/>
+        <item
+            android:id="@+id/internet_security"
+            android:title="@string/internet_security"/>
+        <item
+            android:id="@+id/start_game"
+            android:title="@string/start_game"/>
+        <item
+            android:id="@+id/music_daily"
+            android:title="@string/music_daily"/>
+        <item
+            android:id="@+id/anime_daily"
+            android:title="@string/anime_daily"/>
+        <item
+            android:id="@+id/sports_daily"
+            android:title="@string/sports_daily"/>
+    </group>
+</menu>
